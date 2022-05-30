@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    // box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to right, #192235, #283755, #192235);
+    // min-height: 1050vh;
+}
+
+.container {
+    // height: 10vh;
+    // border: 1px solid white;
+}
+
+.row {
+    height: 20vh;
+}
+
+.logo a {
+    color: white;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav-item a {
+    border-radius: 5px;
+    padding: 10px 15px;
+    background-color: #242f9b;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+// .corouseltop {
+//     width: 50px !important;
+main {
+    display: flex;
+    // height: 100vh;
+    // border: 1px solid white;
+    justify-content: center;
+    // margin-top: 3%;
+}
+
+.login {
+    h1 {
+        color: whitesmoke;
+    }
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 1px 1px 10px 0px rgba(127, 176, 255, 0.367);
+    width: 450px;
+    height: 500px;
+    background-color: rgba($color: #0c0c22, $alpha: 0.1);
+    border-radius: 5px;
+}
+
+.forma {
+    width: 80%;
+    margin: 0 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.loginin,
+.parolin {
+    padding: 10px 20px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background-color: lightblue;
+}
+
+.loginin,
+.parolin {
+    background-color: #283755;
+    color: aliceblue;
+}
+
+.loginin:focus,
+.parolin:focus {
+    background-color: rgb(44, 74, 99);
+}
+
+.loginin::placeholder,
+.parolin::placeholder {
+    color: rgba(255, 248, 220, 0.73);
+    letter-spacing: 1px;
+    // font-style: italic;
+}
+
+.button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background-color: #192235;
+    color: rgba(255, 248, 220, 0.73);
+}
+
+.button:hover {
+    background-color: rgba(100, 148, 237, 0.303);
+}
+
+.loginin::content,
+.parolin {
+    color: whitesmoke;
+}
